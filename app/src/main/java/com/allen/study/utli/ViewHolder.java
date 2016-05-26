@@ -1,4 +1,4 @@
-package com.allen.mvpdemo.utli;
+package com.allen.study.utli;
 
 import android.content.Context;
 import android.graphics.Bitmap;

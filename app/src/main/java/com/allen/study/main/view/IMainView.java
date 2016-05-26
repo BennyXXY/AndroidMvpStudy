@@ -1,4 +1,4 @@
-package com.allen.mvpdemo.main.view;
+package com.allen.study.main.view;
 
 import android.content.Context;
 import android.widget.ListView;
@@ -9,7 +9,7 @@ import android.widget.ListView;
  */
 public interface IMainView {
 	void onShowList();
-	void onSetProgressBarVisibility(int visibility);
+	void onSetProgressBarVisibility(boolean show);
 	ListView getListView();
 	Context getContext();
 }

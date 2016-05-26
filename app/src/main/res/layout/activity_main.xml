@@ -5,23 +5,15 @@
               android:orientation="vertical">
 
     <Button
-        android:id="@+id/main_button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="加载"/>
-
+    android:id="@+id/main_button"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="加载"/>
 
     <ListView
         android:id="@+id/main_listView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:visibility="gone"/>
-
-    <ProgressBar
-        android:id="@+id/main_progress"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="40dp"/>
-
 
 </LinearLayout>

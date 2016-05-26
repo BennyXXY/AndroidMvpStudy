@@ -1,4 +1,4 @@
-package com.allen.mvpdemo.main.presenter;
+package com.allen.study.main.presenter;
 
 /**
  * 控制器接口，主要处理业务逻辑
@@ -7,5 +7,4 @@ package com.allen.mvpdemo.main.presenter;
 public interface IMainPresenter {
 	void loadData();
 	void setListVisiblity();
-	void setProgressBarVisiblity(int visiblity);
 }

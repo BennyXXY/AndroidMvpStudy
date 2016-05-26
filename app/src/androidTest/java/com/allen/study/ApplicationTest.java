@@ -1,4 +1,4 @@
-package com.allen.mvpdemo;
+package com.allen.study;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

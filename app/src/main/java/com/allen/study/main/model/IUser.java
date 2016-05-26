@@ -1,4 +1,4 @@
-package com.allen.mvpdemo.main.model;
+package com.allen.study.main.model;
 
 /**
  * Created by ChenRan on 2016-2-25.

@@ -1,8 +1,8 @@
-<manifest package="com.allen.mvpdemo"
+<manifest package="com.allen.study"
           xmlns:android="http://schemas.android.com/apk/res/android">
 
     <application
-        android:name=".MvpApplication"
+        android:name="com.allen.study.AppContext"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -12,7 +12,7 @@
         <meta-data android:name="UMENG_CHANNEL" android:value="${UMENG_CHANNEL_VALUE}"/>
 
         <activity
-            android:name=".main.MainActivity"
+            android:name="com.allen.study.main.MainActivity"
             android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>

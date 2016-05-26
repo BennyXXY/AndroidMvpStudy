@@ -1,3 +1,22 @@
 <resources>
-    <string name="app_name">MVP Study</string>
+    <string name="app_name">Allen</string>
+
+    <!--主页面-->
+    <string name="main_tab_name_zhihu">知乎</string>
+    <string name="main_tab_name_osChina">OS</string>
+    <string name="main_tab_name_explore">发现</string>
+    <string name="main_tab_name_my">我</string>
+
+    <!--基本操作-->
+    <string name="copy">复制</string>
+    <string name="delete">删除</string>
+    <string name="copy_success">复制成功</string>
+    <string name="deleting">正在删除…</string>
+    <string name="delete_success">删除成功</string>
+    <string name="delete_faile">删除失败</string>
+
+    <!--加载提示-->
+    <string name="loading">加载中…</string>
+    <string name="loading_no_more">已加载全部</string>
+
 </resources>

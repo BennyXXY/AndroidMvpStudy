@@ -1,14 +1,14 @@
-package com.allen.mvpdemo.main.presenter;
+package com.allen.study.main.presenter;
 
 import android.os.Handler;
 import android.os.Looper;
 import android.view.View;
 
-import com.allen.mvpdemo.R;
-import com.allen.mvpdemo.main.model.UserModel;
-import com.allen.mvpdemo.main.view.IMainView;
-import com.allen.mvpdemo.utli.CommonAdapter;
-import com.allen.mvpdemo.utli.ViewHolder;
+import com.allen.study.R;
+import com.allen.study.main.model.UserModel;
+import com.allen.study.main.view.IMainView;
+import com.allen.study.utli.CommonAdapter;
+import com.allen.study.utli.ViewHolder;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -43,7 +43,7 @@ public class MainPresenterCompl implements IMainPresenter {
 			@Override
 			public void run() {
 				setListVisiblity();
-				setProgressBarVisiblity(View.INVISIBLE);
+				mIMainView.onSetProgressBarVisibility(false);
 			}
 		}, 2000);
 	}
@@ -51,11 +51,6 @@ public class MainPresenterCompl implements IMainPresenter {
 	@Override
 	public void setListVisiblity() {
 		mIMainView.onShowList();
-	}
-
-	@Override
-	public void setProgressBarVisiblity(int visiblity) {
-		mIMainView.onSetProgressBarVisibility(visiblity);
 	}
 
 	private void initUserList(){

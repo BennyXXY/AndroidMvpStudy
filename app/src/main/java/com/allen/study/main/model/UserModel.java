@@ -1,4 +1,4 @@
-package com.allen.mvpdemo.main.model;
+package com.allen.study.main.model;
 
 /**
  * 用户信息模型
