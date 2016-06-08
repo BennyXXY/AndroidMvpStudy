@@ -1,0 +1,3 @@
+# AndroidMvpStudy
+在Android下， 一个学习MVP模式的例子
+同时会完善一下架构信息，网络层用okhttp框架，使用ButterKnife注解方式来获取实例
