@@ -17,8 +17,9 @@ import java.util.Properties;
 public class AppConfig {
 
 	private final static String APP_CONFIG = "config";
-	public final static String CONF_APP_UNIQUEID = "APP_UNIQUEID";
 
+	public final static String CONF_COOKIE = "cookie";
+	public final static String CONF_APP_UNIQUEID = "APP_UNIQUEID";
 	public final static String TEST_BUTTON = "TestButton";
 
 	// 默认存放图片的路径

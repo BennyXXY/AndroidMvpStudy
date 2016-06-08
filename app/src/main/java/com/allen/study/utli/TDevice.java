@@ -238,7 +238,7 @@ public class TDevice {
             if (pckInfo != null)
                 return true;
         } catch (NameNotFoundException e) {
-            TLog.error(e.getMessage());
+            TLog.e(e.getMessage());
         }
         return false;
     }
@@ -403,7 +403,7 @@ public class TDevice {
             return BaseApplication.context().getPackageManager()
                     .getPackageInfo(pckName, 0);
         } catch (NameNotFoundException e) {
-            TLog.error(e.getMessage());
+            TLog.e(e.getMessage());
         }
         return null;
     }
@@ -522,7 +522,7 @@ public class TDevice {
         if (mainIntent == null) {
             mainIntent = new Intent(packageName);
         } else {
-            TLog.log("Action:" + mainIntent.getAction());
+            TLog.i("Action:" + mainIntent.getAction());
         }
         context.startActivity(mainIntent);
     }

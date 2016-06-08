@@ -8,6 +8,7 @@ import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.view.Window;
 import android.widget.TextView;
 
 import com.allen.study.AppManager;
@@ -20,7 +21,6 @@ import com.allen.study.utli.StringUtils;
 import com.allen.study.utli.TDevice;
 
 import butterknife.ButterKnife;
-
 
 /**
  * 基础的Activity
@@ -40,7 +40,7 @@ public class BaseActivity extends AppCompatActivity implements DialogControl, Vi
 
 		AppManager.getInstance().addActivity(this);
 		if (!hasActionBar()) {
-			//supportRequestWindowFeature(Window.FEATURE_NO_TITLE);
+			supportRequestWindowFeature(Window.FEATURE_NO_TITLE);
 		}
 		onBeforeSetContentLayout();
 		if (getLayoutId() != 0) {
